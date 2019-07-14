@@ -1,3 +1,3 @@
-import { sayHello } from './modules';
+import { HomeBox } from './modules/Home';
 
-sayHello('holanda que talca')
+window.customElements.define('home-box', HomeBox);

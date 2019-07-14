@@ -1,0 +1,13 @@
+.home-box {
+    border: solid 1px grey;
+    text-align: center;
+    &__logo {
+        font-size: 64px;
+        margin: .25em;
+        font-family: lobster, cursive;
+    }
+    &__random-phrase {
+        font-family: roboto, arial;
+        color: rgba(0,0,0,.6);
+    }
+}

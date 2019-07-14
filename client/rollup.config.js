@@ -2,6 +2,8 @@ const babel = require('rollup-plugin-babel');
 const resolve = require('rollup-plugin-node-resolve');
 const typescript = require('rollup-plugin-typescript');
 const serve = require('rollup-plugin-serve');
+// const scss = require('rollup-plugin-scss');
+const postscss = require('rollup-plugin-postcss');
 
 const path = require('path');
 export default {
@@ -16,6 +18,10 @@ export default {
         }),
         resolve(),
         typescript(),
-        serve()
+        serve(),
+        postscss({
+            inject: false,
+            minimize: true
+        })
     ]
 }
