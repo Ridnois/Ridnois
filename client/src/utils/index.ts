@@ -22,7 +22,7 @@ export const Prop = (): any => {
       const attrName = camelToKebab(elementName);
   
       function get() {
-        return this.shadowRoot.getElementById(attrName);
+        return this.getElementById(attrName);
       }
   
       Object.defineProperty(target, elementName, { get });

@@ -18,7 +18,10 @@ export default {
         }),
         resolve(),
         typescript(),
-        serve(),
+        serve({
+            host: '192.168.0.14',
+            contentBase: '.'
+        }),
         postscss({
             inject: false,
             minimize: true
