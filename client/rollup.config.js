@@ -19,7 +19,7 @@ export default {
         resolve(),
         typescript(),
         serve({
-            host: '192.168.0.14',
+            host: '0.0.0.0',
             contentBase: '.'
         }),
         postscss({

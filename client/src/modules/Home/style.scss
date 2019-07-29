@@ -1,13 +1,27 @@
 .home-box {
-    border: solid 1px grey;
     text-align: center;
     &__logo {
-        font-size: 64px;
-        margin: .25em;
+        padding-top: 1em;
+        font-size: 86px;
+        color: #3c3436;
+        margin: 0em;
         font-family: lobster, cursive;
     }
     &__random-phrase {
+        padding-bottom:4em;
+        margin: 0;
         font-family: roboto, arial;
-        color: rgba(0,0,0,.6);
+        color: rgba(0,0,0,.8);
+        font-size: 1.1em;
+        &--icon {
+            color: crimson;
+        }
+    }
+    input {
+        border-radius: .2em;
+        font-weight: bold;
+        border: solid 2px grey;
+        padding: .3em;
+        font-size: 1.1em;
     }
 }

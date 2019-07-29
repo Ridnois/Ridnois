@@ -1,20 +1,24 @@
-import { Prop } from '../../../utils'
-import scss from './nav-bar.scss';
-
-export class NavBar extends HTMLElement {
-    @Prop() public isAuth: boolean;
-    constructor() {
+import { Prop } from '../../../utils';
+import scss from './style.scss';
+export class BaseButton extends HTMLElement {
+    @Prop() public payLoad: string;
+    constructor(){
         super();
     }
 
     public render(): string {
+        console.info(`payLoad: ${this.payLoad}`)
         return `${this.cssStyle} ${this.template}
         `
     }
-
     public connectedCallback() {
         this.refresh();
     }
+
+    static get observedAttributes(): string[] {
+        return ['pay-load'];
+    }
+
     public attributeChangedCallback(): void {
         this.refresh();
     }
@@ -25,23 +29,14 @@ export class NavBar extends HTMLElement {
 
     get template(): string {
         return `
-            <div class="nav-bar">
-                <div class="nav-bar__panel">
-                    <i class="material-icons">settings</i>
-                </div>
-            </div>
+            <button>${this.payLoad}</button>
         `
     }
     get cssStyle(): string {
         return `
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
         <style>
-            .home-box__logo {
-                color: crimson;
-            }
-            ${scss}
+                ${scss}
         </style>
         `
     }

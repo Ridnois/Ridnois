@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }    
+    </style>
     <nav-bar is-auth="false"></nav-bar>
-    <home-box random-phrase="Made with love and Typescript"></home-box>
+    <home-box random-phrase="Made with <i class='material-icons home-box__random-phrase--icon'>favorite</i> and Javascript" pay-load="Take a look" ></home-box>
     <script src="dist/bundle.min.js"></script>
 </body>
 </html>
