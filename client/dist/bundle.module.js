@@ -79,6 +79,7 @@ __decorate([
     Prop(),
     __metadata("design:type", String)
 ], BaseElement.prototype, "foo", void 0);
+//# sourceMappingURL=BaseElement.js.map
 
 window.customElements.define('base-element', BaseElement);
 //# sourceMappingURL=main.es.js.map
