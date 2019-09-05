@@ -1,2 +1,2 @@
-import inputStyle from './index.scss';
-export {inputStyle}
+import inputStyle from './style.scss';
+export {inputStyle};
