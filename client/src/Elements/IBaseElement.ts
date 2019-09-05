@@ -1,11 +1,8 @@
-
-// base eelement is like a div with: 
-// props settings 
-// render metho
 export interface IBaseElement {
     rendereable?: boolean;
-    template?: string | HTMLElement;
+    template?: string;
+    stylesheet?: string
     observedAttributes: string[];
-    shadowRoot?: any;
+    shadowRoot?: boolean | any;
     connectedCallback(): any;
 }
