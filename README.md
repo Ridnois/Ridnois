@@ -45,7 +45,7 @@ console, and public/internal docs, built and operated solo.
 
 <p align="left">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ridnois&show_icons=true&theme=github_dark&hide_border=true&bg_color=0b0e14&title_color=d40237&icon_color=d40237&text_color=e5e7eb" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridnois&layout=compact&theme=github_dark&hide_border=true&bg_color=0b0e14&title_color=d40237&text_color=e5e7eb" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridnois&layout=compact&exclude_repo=ai_shorts,bussiness_vault,notes&theme=github_dark&hide_border=true&bg_color=0b0e14&title_color=d40237&text_color=e5e7eb" />
 </p>
 
 ---
