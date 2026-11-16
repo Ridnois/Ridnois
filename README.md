@@ -2,7 +2,7 @@
 
 # Sebastian Altamirano
 
-**Senior Frontend Engineer** · TypeScript, React, Next.js, Python
+**Senior Frontend Engineer** · TypeScript, React, Next.js, Python<br/>
 Santiago, Chile (UTC−3) · remote or hybrid · open to senior roles
 
 [ridnois.github.io](https://ridnois.github.io) · [LinkedIn](https://www.linkedin.com/in/sebastian-altamirano-5aa45a132/) · [s.altamiranorid@gmail.com](mailto:s.altamiranorid@gmail.com)
