@@ -27,11 +27,13 @@ LLM pipelines gated by automated checks.
 | [webai3_token](https://github.com/Ridnois/webai3_token) | ERC-20 with a Foundry suite | 85 tests including fuzz properties and two invariants; fixed supply, no post-deploy mint surface |
 | [ridnois.github.io](https://ridnois.github.io) | Personal site | Three.js / R3F, hand-built, no template |
 
-Two larger builds live in private repositories: an **AI legal assistant** (Next.js front
-end, Python service in Docker, Chilean statute ingested into a cited corpus, answers with
-confidence tiers, CI on every push) and a **10.5k-LOC Python video pipeline** (LLM
-scripting, TTS with word-level timing, automated retention and audio quality gates).
-Walkthroughs on request.
+### Also built — private, walkthroughs on request
+
+- **ai_orientator** — legal-orientation product for Chile. Next.js App Router front end, a
+  Python service in Docker, Chilean statute ingested into a cited corpus, answers with
+  confidence tiers and a lawyer hand-off, CI on every push.
+- **shorts-studio-deepseek** — 10.5k-LOC Python video pipeline: LLM scripting, TTS with
+  word-level timing, automated retention and audio quality gates.
 
 ### Stack
 
